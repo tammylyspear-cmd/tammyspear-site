@@ -1,37 +1,8 @@
 <!--
-  ═══════════════════════════════════════════════════════════════
-  HOW TO ADD A NEW BLOG POST
-  ═══════════════════════════════════════════════════════════════
-
-  1. Create a new folder inside /blog/ with your post's URL slug,
-     e.g. /blog/my-new-post/
-
-  2. Copy this file into that folder as index.html.
-
-  3. Update the following in your new file:
-     - <title> tag with your post title
-     - The "post-date" span with the publication date
-     - The <h1> with your post title
-     - The post body content inside <div class="post-body">
-     - If this is a draft, add data-draft="true" to the <article> tag
-       (drafts are hidden in production but visible in deploy previews)
-
-  4. Add an entry to /blog/index.html in the "POST LISTING" section:
-     <article class="post-item" data-draft="false">
-       <div class="post-date">Month Day, Year</div>
-       <h2 class="post-title"><a href="/blog/your-slug/">Post Title</a></h2>
-       <p class="post-excerpt">A short summary of the post.</p>
-       <a href="/blog/your-slug/" class="read-more">Read more</a>
-     </article>
-
-  5. Add the post to /blog/rss.xml inside the <channel> element:
-     <item>
-       <title>Post Title</title>
-       <link>https://tammyspear.netlify.app/blog/your-slug/</link>
-       <description>A short summary of the post.</description>
-       <pubDate>RFC-822 date, e.g. Wed, 15 Apr 2026 00:00:00 GMT</pubDate>
-       <guid>https://tammyspear.netlify.app/blog/your-slug/</guid>
-     </item>
+  Published post: finding-meaning-in-the-everyday
+  Author scaffolding/template instructions intentionally removed from
+  published HTML to avoid edge-function false-positives and keep the
+  shipped page free of authoring chrome.
 
   ═══════════════════════════════════════════════════════════════
 -->

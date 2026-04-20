@@ -19,15 +19,22 @@ export default async (req: Request, context: Context) => {
       'data-draft="true"'
     );
   } else {
-    // In production: remove draft post items from listing entirely
-    html = html.replace(
-      /<article[^>]*data-draft="true"[^>]*>[\s\S]*?<\/article>/g,
-      ""
-    );
+    // In production: remove draft post items from listing entirely.
+    // Anchored to <article ...> so HTML comments or scaffolding text
+    // containing the literal string data-draft="true" cannot trip this.
+    const draftArticleRe =
+      /<article\b[^>]*\bdata-draft=(["'])true\1[^>]*>[\s\S]*?<\/article>/gi;
+    html = html.replace(draftArticleRe, "");
 
-    // If this is a draft post page (single post with data-draft="true"), return 404
+    // If this is a single post page where the article itself is a draft,
+    // return 404. We strip HTML comments before checking so that a
+    // template-instructions comment containing data-draft="true" cannot
+    // false-positive as a real draft article.
+    const htmlNoComments = html.replace(/<!--[\s\S]*?-->/g, "");
+    const singleDraftArticleRe =
+      /<article\b[^>]*\bdata-draft=(["'])true\1/i;
     if (
-      html.includes('data-draft="true"') &&
+      singleDraftArticleRe.test(htmlNoComments) &&
       !req.url.includes("/blog/index")
     ) {
       const url = new URL(req.url);
