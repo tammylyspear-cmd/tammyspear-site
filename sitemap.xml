@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+  Sitemap for tammyspear.netlify.app
+  Each URL is wrapped in URL-START / URL-END markers keyed by slug.
+  To add, remove, or reorder URLs in the Netlify online dashboard,
+  edit inside a marker block or duplicate a full block and update
+  the <loc>, <lastmod>, <changefreq>, and <priority> values.
+-->
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+
+  <!-- URL-START: home -->
+  <url>
+    <loc>https://tammyspear.netlify.app/</loc>
+    <lastmod>2026-04-19</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>1.0</priority>
+  </url>
+  <!-- URL-END: home -->
+
+  <!-- URL-START: blog -->
+  <url>
+    <loc>https://tammyspear.netlify.app/blog/</loc>
+    <lastmod>2026-04-19</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <!-- URL-END: blog -->
+
+  <!-- URL-START: my-body -->
+  <url>
+    <loc>https://tammyspear.netlify.app/blog/my-body/</loc>
+    <lastmod>2026-04-19</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <!-- URL-END: my-body -->
+
+  <!-- URL-START: lessons-from-a-slower-pace -->
+  <url>
+    <loc>https://tammyspear.netlify.app/blog/lessons-from-a-slower-pace/</loc>
+    <lastmod>2026-04-19</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <!-- URL-END: lessons-from-a-slower-pace -->
+
+  <!-- URL-START: the-constraint-is-the-strategy -->
+  <url>
+    <loc>https://tammyspear.netlify.app/blog/the-constraint-is-the-strategy/</loc>
+    <lastmod>2026-04-19</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <!-- URL-END: the-constraint-is-the-strategy -->
+
+  <!-- URL-START: finding-meaning-in-the-everyday -->
+  <url>
+    <loc>https://tammyspear.netlify.app/blog/finding-meaning-in-the-everyday/</loc>
+    <lastmod>2026-04-19</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <!-- URL-END: finding-meaning-in-the-everyday -->
+
+</urlset>

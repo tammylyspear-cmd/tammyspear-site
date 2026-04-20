@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://tammyspear.netlify.app/sitemap.xml

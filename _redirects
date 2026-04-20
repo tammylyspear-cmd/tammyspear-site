@@ -1,0 +1,3 @@
+# Netlify redirects and status rewrites
+# Format: source  destination  status
+# Docs: https://docs.netlify.com/routing/redirects/
