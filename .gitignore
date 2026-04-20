@@ -15,6 +15,9 @@ npm-debug.log*
 # Netlify build cache (regenerated on every deploy — never commit)
 .netlify/
 
+# Netlify zip-deploy temp artifacts (created locally by @netlify/mcp upload)
+deploy-*.zip
+
 # Editor / IDE
 .vscode/
 .idea/

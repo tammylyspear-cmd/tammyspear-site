@@ -11,7 +11,7 @@
   <!-- URL-START: home -->
   <url>
     <loc>https://tammyspear.netlify.app/</loc>
-    <lastmod>2026-04-19</lastmod>
+    <lastmod>2026-04-20</lastmod>
     <changefreq>monthly</changefreq>
     <priority>1.0</priority>
   </url>
@@ -20,7 +20,7 @@
   <!-- URL-START: blog -->
   <url>
     <loc>https://tammyspear.netlify.app/blog/</loc>
-    <lastmod>2026-04-19</lastmod>
+    <lastmod>2026-04-20</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
@@ -29,7 +29,7 @@
   <!-- URL-START: media -->
   <url>
     <loc>https://tammyspear.netlify.app/media/</loc>
-    <lastmod>2026-04-19</lastmod>
+    <lastmod>2026-04-20</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.9</priority>
   </url>
@@ -38,7 +38,7 @@
   <!-- URL-START: my-body -->
   <url>
     <loc>https://tammyspear.netlify.app/blog/my-body/</loc>
-    <lastmod>2026-04-19</lastmod>
+    <lastmod>2026-04-20</lastmod>
     <changefreq>yearly</changefreq>
     <priority>0.7</priority>
   </url>
@@ -47,7 +47,7 @@
   <!-- URL-START: lessons-from-a-slower-pace -->
   <url>
     <loc>https://tammyspear.netlify.app/blog/lessons-from-a-slower-pace/</loc>
-    <lastmod>2026-04-19</lastmod>
+    <lastmod>2026-04-20</lastmod>
     <changefreq>yearly</changefreq>
     <priority>0.7</priority>
   </url>
@@ -56,7 +56,7 @@
   <!-- URL-START: the-constraint-is-the-strategy -->
   <url>
     <loc>https://tammyspear.netlify.app/blog/the-constraint-is-the-strategy/</loc>
-    <lastmod>2026-04-19</lastmod>
+    <lastmod>2026-04-20</lastmod>
     <changefreq>yearly</changefreq>
     <priority>0.7</priority>
   </url>
@@ -65,7 +65,7 @@
   <!-- URL-START: finding-meaning-in-the-everyday -->
   <url>
     <loc>https://tammyspear.netlify.app/blog/finding-meaning-in-the-everyday/</loc>
-    <lastmod>2026-04-19</lastmod>
+    <lastmod>2026-04-20</lastmod>
     <changefreq>yearly</changefreq>
     <priority>0.7</priority>
   </url>
