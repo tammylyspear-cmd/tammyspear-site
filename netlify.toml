@@ -2,6 +2,16 @@
   publish = "."
   edge_functions = "netlify/edge-functions"
 
+# Permanent 301 from legacy Netlify alias (tammyspear.netlify.app) to the
+# canonical apex (tammylyspear.me). Required for Google Search Console
+# "Change of address" + Bing Webmaster Tools "Site Move" validation.
+# force = true ensures the redirect fires even when the target file exists.
+[[redirects]]
+  from = "https://tammyspear.netlify.app/*"
+  to = "https://tammylyspear.me/:splat"
+  status = 301
+  force = true
+
 [[headers]]
   for = "/blog/*"
   [headers.values]

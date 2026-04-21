@@ -1,3 +1,8 @@
 # Netlify redirects and status rewrites
 # Format: source  destination  status
 # Docs: https://docs.netlify.com/routing/redirects/
+
+# Permanent 301 from legacy Netlify alias to canonical apex.
+# Required so Google Search Console Change of Address + Bing Webmaster Tools
+# Site Move validate a working redirect from the old hostname to the new one.
+https://tammyspear.netlify.app/*  https://tammylyspear.me/:splat  301!
