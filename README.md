@@ -1,6 +1,6 @@
 # tammyspear-site
 
-Source repository for [tammylyspear.me](https://tammylyspear.me) (primary) / [tammyspear.netlify.app](https://tammyspear.netlify.app) (Netlify alias).
+Source repository for [tammylyspear.me](https://tammylyspear.me). The legacy `tammyspear.netlify.app` alias returns a permanent 301 to the apex (enforced in both `_redirects` and `netlify.toml`).
 
 ## Workflow
 
