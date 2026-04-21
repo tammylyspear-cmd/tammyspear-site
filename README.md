@@ -1,6 +1,6 @@
 # tammyspear-site
 
-Source repository for [tammyspear.netlify.app](https://tammyspear.netlify.app).
+Source repository for [tammylyspear.me](https://tammylyspear.me) (primary) / [tammyspear.netlify.app](https://tammyspear.netlify.app) (Netlify alias).
 
 ## Workflow
 

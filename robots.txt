@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://tammyspear.netlify.app/sitemap.xml
+Sitemap: https://tammylyspear.me/sitemap.xml
